@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import Script from "next/script";
 
 import { Space_Grotesk as FontSans, Noto_Serif as FontSerif } from "next/font/google";
 
@@ -42,6 +43,14 @@ export function RootLayout({ children }: { children: ReactNode }) {
 				<script src="https://unpkg.com/react-scan/dist/auto.global.js" async />
 			</Head>
 			<html lang="en" suppressHydrationWarning>
+				<head>
+					<Script
+						src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`}
+						strategy="beforeInteractive"
+						nonce="google-maps-nonce"
+						crossOrigin="anonymous"
+					/>
+				</head>
 				<body
 					className={cn(
 						"min-h-screen antialiased",
