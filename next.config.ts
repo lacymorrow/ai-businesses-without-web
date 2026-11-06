@@ -49,17 +49,6 @@ let nextConfig: NextConfig = {
 	 */
 	productionBrowserSourceMaps: true,
 
-	/*
-	 * Lint configuration
-	 */
-	eslint: {
-		/*
-			!! WARNING !!
-			* This allows production builds to successfully complete even if
-			* your project has ESLint errors.
-		*/
-		ignoreDuringBuilds: true,
-	},
 	typescript: {
 		/*
 			!! WARNING !!
@@ -88,7 +77,7 @@ let nextConfig: NextConfig = {
 		serverActions: {
 			bodySizeLimit: FILE_UPLOAD_MAX_SIZE,
 		},
-		webVitalsAttribution: ["CLS", "LCP", "TTFB", "FCP", "FID"],
+		webVitalsAttribution: ["CLS", "LCP", "TTFB", "FCP", "INP"],
 	},
 	/*
 	 * Miscellaneous configuration
