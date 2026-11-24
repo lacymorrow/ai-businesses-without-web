@@ -1,0 +1,13 @@
+packages:
+  - .
+
+overrides:
+  react: 19.0.0
+  react-dom: 19.0.0
+  '@auth/core': 0.41.3
+  fast-xml-parser: 4.5.4
+  form-data: 4.0.4
+  protobufjs: 7.5.5
+  shell-quote: 1.8.4
+  tinypool: 2.1.2
+  'onnxruntime-node>tar': 7.5.19
