@@ -69,9 +69,9 @@
     "@opentelemetry/api-logs": "^0.57.2",
     "@opentelemetry/instrumentation": "^0.57.2",
     "@opentelemetry/sdk-logs": "^0.57.2",
-    "@payloadcms/next": "^3.23.0",
-    "@payloadcms/payload-cloud": "^3.23.0",
-    "@payloadcms/richtext-lexical": "^3.23.0",
+    "@payloadcms/next": "^3.90.0",
+    "@payloadcms/payload-cloud": "^3.90.0",
+    "@payloadcms/richtext-lexical": "^3.90.0",
     "@radix-ui/react-accordion": "1.2.3",
     "@radix-ui/react-alert-dialog": "1.1.6",
     "@radix-ui/react-aspect-ratio": "^1.1.2",
@@ -146,13 +146,13 @@
     "holy-loader": "2.3.13",
     "input-otp": "^1.4.2",
     "jotai": "2.12.0",
-    "jspdf": "^2.5.2",
+    "jspdf": "^4.2.1",
     "jszip": "^3.10.1",
     "lodash-es": "^4.17.21",
     "lucide-react": "0.475.0",
     "marked": "^15.0.7",
     "next": "16.4.3",
-    "next-auth": "5.0.0-beta.25",
+    "next-auth": "5.0.0-beta.32",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "0.4.4",
     "next-view-transitions": "0.3.4",
@@ -173,7 +173,7 @@
     "recharts": "^2.15.1",
     "remark-frontmatter": "^5.0.0",
     "remark-mdx-frontmatter": "^5.0.0",
-    "remotion": "^4.0.265",
+    "remotion": "^4.0.410",
     "resend": "^4.1.2",
     "server-only": "0.0.1",
     "simplex-noise": "^4.0.3",
@@ -197,8 +197,8 @@
     "@builder.io/partytown": "0.10.3",
     "@next/eslint-plugin-next": "16.4.3",
     "@next/mdx": "16.4.3",
-    "@payloadcms/db-postgres": "^3.23.0",
-    "@payloadcms/plugin-nested-docs": "^3.23.0",
+    "@payloadcms/db-postgres": "^3.90.0",
+    "@payloadcms/plugin-nested-docs": "^3.90.0",
     "@tailwindcss/typography": "0.5.16",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
@@ -224,7 +224,7 @@
     "jsdom": "^26.0.0",
     "next-sitemap": "^4.2.3",
     "npm-check-updates": "^17.1.14",
-    "payload": "^3.23.0",
+    "payload": "^3.90.0",
     "playwright": "^1.50.1",
     "postcss": "8.5.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
@@ -232,7 +232,7 @@
     "tailwindcss": "3.4.17",
     "typescript": "^5",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.0.5"
+    "vitest": "^3.2.6"
   },
   "ct3aMetadata": {
     "initVersion": "7.37.0"
@@ -248,11 +248,5 @@
   },
   "volta": {
     "node": "22.11.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "react": "19.0.0",
-      "react-dom": "19.0.0"
-    }
   }
 }
